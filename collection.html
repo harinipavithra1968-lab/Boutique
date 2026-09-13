@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collection</title>
+    <link rel="stylesheet" href="collection.css">
+</head>
+<body>
+    <div>
+         <div id="offer">
+            <h4 id="hide">SIGN UP AND GET 20% OFF FOR YOUR FIRST ORDER</h4>
+            <p id="offerclose" style="cursor: pointer;">x</p>
+        </div>
+        <div id="head">
+            <div id="logo">
+                <h3>RUVE</h3>
+            </div>
+            <div id="menu">
+                <a href="C:\Users\harin\OneDrive\Documents\fullstack\Ruve boutique\index.html">Home</a>
+                <a href="#new">New Arrival</a>
+                <a href="#recommend">Most Recommend</a>
+                <a href="C:\Users\harin\OneDrive\Documents\fullstack\Ruve boutique\collection.html">Collection</a>
+                <a href="C:\Users\harin\OneDrive\Documents\fullstack\Ruve boutique\contact.html">Contact Us</a>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="size-4 " id="menuicon" style=" cursor: pointer;">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+            </div>
+        </div>
+        <section id="sidenav">
+            <p id="sideclose">X</p>
+            <a href="C:\Users\harin\OneDrive\Documents\fullstack\Ruve boutique\index.html">Home</a>
+            <a href="#new">New Arrival</a>
+            <a href="#recommend">Most Recommend</a>
+            <a href="C:\Users\harin\OneDrive\Documents\fullstack\Ruve boutique\collection.html">Collection</a>
+            <a href="C:\Users\harin\OneDrive\Documents\fullstack\Ruve boutique\contact.html">Contact Us</a>
+        </section>
+
+    <h1>Our Collection</h1>
+
+   
+    <div id="filter">
+
+        <h2>Filter</h2>
+
+       
+        <h3>Color</h3>
+
+        <label>
+            <input type="checkbox" class="color" value="red">
+            Red
+        </label>
+
+        <label>
+            <input type="checkbox" class="color" value="black">
+            Black
+        </label>
+
+        <label>
+            <input type="checkbox" class="color" value="green">
+            Green
+        </label>
+
+
+       
+        <h3>Type</h3>
+
+        <label>
+            <input type="checkbox" class="type" value="saree">
+            Saree
+        </label>
+
+        <label>
+            <input type="checkbox" class="type" value="dress">
+            Dress
+        </label>
+
+        <label>
+            <input type="checkbox" class="type" value="kurti">
+            Kurti
+        </label>
+
+
+        
+        <h3>Price</h3>
+
+        <label>
+            <input type="checkbox" class="price" value="low">
+            Under ₹1000
+        </label>
+
+        <label>
+            <input type="checkbox" class="price" value="medium">
+            ₹1000 - ₹2000
+        </label>
+
+        <label>
+            <input type="checkbox" class="price" value="high">
+            Above ₹2000
+        </label>
+
+        <br>
+
+        <button id="apply">Apply Filter</button>
+
+    </div>
+
+
+   
+
+    <div id="products">
+
+        <div class="product"
+             data-color="red"
+             data-type="saree"
+             data-price="medium">
+
+            <img src="./image/saree1.jpg">
+            <h3>Red Saree</h3>
+            <p>₹1500</p>
+
+        </div>
+
+
+        <div class="product"
+             data-color="black"
+             data-type="dress"
+             data-price="high">
+
+            <img src="./image/black1.jpg">
+            <h3>Black Dress</h3>
+            <p>₹2500</p>
+
+        </div>
+
+
+        <div class="product"
+             data-color="green"
+             data-type="kurti"
+             data-price="low">
+
+            <img src="./image/green1.jpg">
+            <h3>Green Kurti</h3>
+            <p>₹800</p>
+
+        </div>
+
+
+        <div class="product"
+             data-color="red"
+             data-type="dress"
+             data-price="low">
+
+            <img src="./image/red1.jpg">
+            <h3>Red Dress</h3>
+            <p>₹900</p>
+
+        </div>
+
+
+        <div class="product"
+             data-color="black"
+             data-type="saree"
+             data-price="high">
+
+            <img src="./image/black2.jpg">
+            <h3>Black Saree</h3>
+            <p>₹3000</p>
+
+        </div>
+
+
+        <div class="product"
+             data-color="green"
+             data-type="dress"
+             data-price="medium">
+
+            <img src="./image/green3.jpg">
+            <h3>Green Dress</h3>
+            <p>₹1800</p>
+
+        </div>
+         <div class="product"
+             data-color="red"
+             data-type="saree"
+             data-price="medium">
+
+            <img src="./image/red2.jpg">
+            <h3>Red Saree</h3>
+            <p>₹1500</p>
+
+        </div>
+
+
+        <div class="product"
+             data-color="black"
+             data-type="dress"
+             data-price="high">
+
+            <img src="./image/black3.jpg">
+            <h3>Black Dress</h3>
+            <p>₹2500</p>
+
+        </div>
+
+
+        <div class="product"
+             data-color="green"
+             data-type="kurti"
+             data-price="low">
+
+            <img src="./image/green2.jpg">
+            <h3>Green Kurti</h3>
+            <p>₹800</p>
+
+        </div>
+
+
+        <div class="product"
+             data-color="red"
+             data-type="dress"
+             data-price="low">
+
+            <img src="./image/red4.jpg">
+            <h3>Red Dress</h3>
+            <p>₹900</p>
+
+        </div>
+
+
+        <div class="product"
+             data-color="black"
+             data-type="saree"
+             data-price="high">
+
+            <img src="./image/saree4.jpg">
+            <h3>Black Saree</h3>
+            <p>₹3000</p>
+
+        </div>
+
+
+        <div class="product"
+             data-color="green"
+             data-type="dress"
+             data-price="medium">
+
+            <img src="./image/green5.jpg">
+            <h3>Green Dress</h3>
+            <p>₹1800</p>
+
+        </div>
+         <div class="product"
+             data-color="red"
+             data-type="saree"
+             data-price="medium">
+
+            <img src="./image/saree7.jpg">
+            <h3>Red Saree</h3>
+            <p>₹1500</p>
+
+        </div>
+
+
+        <div class="product"
+             data-color="black"
+             data-type="dress"
+             data-price="high">
+
+            <img src="./image/black5.jpg">
+            <h3>Black Dress</h3>
+            <p>₹2500</p>
+
+        </div>
+
+
+        <div class="product"
+             data-color="green"
+             data-type="kurti"
+             data-price="low">
+
+            <img src="./image/green6.jpg">
+            <h3>Green Kurti</h3>
+            <p>₹800</p>
+
+        </div>
+
+
+        <div class="product"
+             data-color="red"
+             data-type="dress"
+             data-price="low">
+
+            <img src="./image/red4.jpg">
+            <h3>Red Dress</h3>
+            <p>₹900</p>
+
+        </div>
+
+
+        <div class="product"
+             data-color="black"
+             data-type="saree"
+             data-price="high">
+
+            <img src="./image/saree4.jpg">
+            <h3>Black Saree</h3>
+            <p>₹3000</p>
+
+        </div>
+
+
+        <div class="product"
+             data-color="green"
+             data-type="dress"
+             data-price="medium">
+
+            <img src="./image/green3.jpg">
+            <h3>Green Dress</h3>
+            <p>₹1800</p>
+
+        </div>
+
+    </div>
+    <div class="footer">
+        <div class="sec1">
+            <h1><i>RUVE</i></h1>
+            <P>BOUTIQUE</P>
+            <P>Style that feels uniquely you. Discover elegant, trendy, and comfortable fashion pieces curated for
+                every special moment.</P>
+        </div>
+        <div class="sec2">
+            <h4>Quick Links </h4>
+            <p>Home <img src="./image/down.png" alt=""></p>
+            <p>New arrivals <img src="./image/down.png" alt=""></p>
+            <p>Collection <img src="./image/down.png" alt=""></p>
+            <p>About Us <img src="./image/down.png" alt=""></p>
+            <p>Contact Us <img src="./image/down.png" alt=""></p>
+        </div>
+        <div class="sec3">
+            <h4>Follows Us</h4>
+            <div class="sec3_one">
+                <img src="./image/instagram.png">
+                <img src="./image/facebook.png">
+                <img src="./image/path.png">
+
+            </div>
+        </div>
+        
+
+    </div>
+    <footer class="end">
+        <p>&copy;2026 Qality Frabic</p>
+    </footer>
+        <script src="collection.js"></script>
+    </div>
+</body>
+</html>
